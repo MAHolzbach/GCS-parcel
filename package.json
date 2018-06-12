@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build:all": "rimraf dist && yarn run build:home",
+    "build:all": "rimraf dist && npm run build:home",
     "build:home": "parcel build ./src/pages/home/index.pug --public-url ./",
     "watch:home": "parcel ./src/pages/home/index.pug"
   },
