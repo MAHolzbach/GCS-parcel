@@ -1,6 +1,7 @@
 extends ../../layouts/main.pug
 
 block page
-  section.hero.is-medium
-    div.hero-body
-      h1.is-size-1.has-text-black.has-text-centered Grounds Central Station!
+  div
+    include ../../components/header/header.pug
+  div.section
+    include ../../components/navbar/navbar.pug

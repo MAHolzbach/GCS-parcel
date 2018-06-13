@@ -1,0 +1,10 @@
+.level {
+  font-family: "Righteous", cursive;
+}
+.link {
+  color: black;
+
+  &:hover {
+    color: #965f41;
+  }
+}
